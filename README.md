@@ -1,2 +1,2 @@
-# YuriRebrov-Website
-My personal website
+# Yuri Rebrov | Website
+This is my personal website.
