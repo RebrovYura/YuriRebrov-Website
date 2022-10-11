@@ -1,13 +1,66 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="./css/output.css">
     <title>Yuri Rebrov</title>
 </head>
-<body>
+
+<body class="bg-white dark:bg-dark-gray">
+    <div class="wrapper font-poppins">
+        <div class="wrapper__container h-screen flex flex-col justify-between">
+            <div class="header shadow-own-light dark:shadow-own-dark">
+                <div class="header__content flex justify-between items-center py-2 px-3 lg:py-3 lg:px-32">
+                    <div class="header__logo"><span class="font-bold text-xl text-green">Y</span><span
+                            class="font-bold text-xl text-dark-green dark:text-white">Rebrov</span></div>
+                    <div class="header__theme-toggle flex self-center">
+                        <i id="themeToggle" class='bx bxs-moon bx-sm text-dark-green dark:text-orange cursor-pointer'></i>
+                    </div>
+                </div>
+            </div>
+            <div class="about mx-auto">
+                <div class="image">
+                    <div class="image__inner flex justify-center">
+                        <img class="rounded-[100%] px-20 pt-7 max-w-xs" src="./img/photo.png" alt="">
+                    </div>
+                </div>
+                <div class="descr mt-6 text-center max-w-xs mb-6">
+                    <div class="descr__inner text-center">
+                        <div class="descr__title text-2xl font-bold"><span class="text-dark-gray dark:text-white mb-2">Hi, I’m </span><span
+                                class="text-orange">Yuri Rebrov</span></div>
+                        <div class="descr__subtitle text-xs font-light italic text-gray mb-1"><span>self-taught, striving for
+                                new heights</span></div>
+                        <div class="descr__text text-xs font-medium text-dark-gray dark:text-white">
+                            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut
+                            labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco
+                            laboris nisi ut aliquip ex ea commodo consequat.
+                        </div>
+                    </div>
+                </div>
+                <button class="block mx-auto text-sm font-bold bg-orange py-3 px-7 rounded-md">GET MY EMAIL</button>
+            </div>
+            <div class="links mx-auto">
+                <div class="links__inner flex justify-between">
+                    <a href="#"><i class='bx bxl-github bx-sm mx-2 text-dark-gray dark:text-green'  ></i></a>
+                    <a href="#"><i class='bx bxl-instagram bx-sm mx-2 text-dark-gray dark:text-green' ></i></a>
+                    <a href="#"><i class='bx bxl-linkedin-square bx-sm mx-2 text-dark-gray dark:text-green' ></i></a>
+                    <a href="#"><i class='bx bxl-telegram bx-sm mx-2 text-dark-gray dark:text-green' ></i></a>
+                </div>
+            </div>
+            <div class="footer">
+                <div class="footer__content text-center pb-3">
+                    <span class="text-xs text-gray">All rights reserved | © Yuri Rebrov 2022</span>
+                </div>
+            </div>
+        </div>
+
+    </div>
     <script src="js/main.js"></script>
 </body>
+
 </html>
